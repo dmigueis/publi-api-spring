@@ -1,6 +1,6 @@
 # Projeto Java API RESTful criada para o desafio da DIO
 
-## Diagrama de Classes
+## Diagrama de Classes ([Mermaid](https://mermaid.js.org/))
 
 ```mermaid
 classDiagram
