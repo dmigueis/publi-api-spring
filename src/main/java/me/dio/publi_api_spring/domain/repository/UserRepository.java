@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends JpaRepository<User, Long> {
     //JpaRepository<T, D> T = Entidade que vamos utilizar e D = Tipo
 
-
+    boolean existsByAccountNumber(String accountNumber);
+    boolean existsByCardNumber(String cardNumber);
 }
