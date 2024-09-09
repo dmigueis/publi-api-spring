@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:firebirdsql://${FBHOST}:${FBPORT}//${FBDATABASE}
+    username: SYSDBA
+    password: masterkey
+    driver-class-name: org.firebirdsql.jdbc.FBDriver
+  jpa:
+    database-platform: org.hibernate.dialect.FirebirdDialect
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
